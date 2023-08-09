@@ -32,17 +32,150 @@
       .pc-image {
         display: none;
       }
+      #pc {
+        display: none;
+      }
+
+      #mobile {
+        display: block;
+      }
     
       .mobile-image {
         display: block;
       }
     }
+    #t_tele {
+      width: 16.3vw;
+      border-radius: 50px;
+      position:absolute;
+      height: 2.9vw;
+      top:11%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #t_kakao {
+      width: 16.3vw;
+      border-radius: 50px;
+      position:absolute;
+      height: 2.8vw;
+      top:14.1%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #b_tele {
+      width: 20vw;
+      border-radius: 50px;
+      position:absolute;
+      height: 3.4vw;
+      top:90%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #b_kakao {
+      width: 20vw;
+      border-radius: 50px;
+      position:absolute;
+      height: 3.4vw;
+      top:94%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+
+
+
+    #moblie {
+      display: none;
+    }
+    #tm_tele {
+      width: 42.4vw;
+      border-radius: 20px;
+      position:absolute;
+      height: 7vw;
+      top:6.4%;
+      left: 50%;
+      transform: translateX(-50.8%);
+    }
+    #tm_kakao {
+      width: 42.4vw;
+      border-radius: 20px;
+      position:absolute;
+      height: 7vw;
+      top:8.4%;
+      left: 50%;
+      transform: translateX(-50.8%);
+    }
+    #bm_tele {
+      width: 70vw;
+      border-radius: 20px;
+      position:absolute;
+      height: 12vw;
+      top:92.45%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #bm_kakao {
+      width: 70vw;
+      border-radius: 20px;
+      position:absolute;
+      height: 12vw;
+      top:95.7%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   </style>
 </head>
 <body>
-  <a href="https://open.kakao.com/o/sKLz6zof" target="blank">
   <img class="pc-image" src="119.png" alt="PC Image">
   <img class="mobile-image" src="119 mb.png" alt="Mobile Image">
-  </a>
+  <div id="pc">
+    <!-- 맨위 버튼들 -->
+    <!-- href에 텔레그렘 주소 입력 -->
+    <a href="http://t.me/center117" class="dd">
+      <div id="t_tele">
+      </div>
+    </a>
+    <!-- href에 카카오톡 주소 입력 -->
+    <a href="http://qr.kakao.com/talk/SEAxoauk0cv86Em6PywZx_NvGdE-">
+      <div id="t_kakao">
+      </div>
+    </a>
+    <!-- 맨 아래 버튼들 -->
+    <!-- href에 텔레그렘 주소 입력 -->
+    <a href="http://t.me/center117">
+      <div id="b_tele">
+      </div>
+    </a>
+    <!-- href에 카카오톡 주소 입력 -->
+    <a href="http://qr.kakao.com/talk/SEAxoauk0cv86Em6PywZx_NvGdE-">
+      <div id="b_kakao">
+      </div>
+    </a>
+  </div>
+  <!-- 모바일 버전 -->
+  <div id="mobile">
+    <!-- 맨위 버튼들 -->
+    <!-- href에 텔레그렘 주소 입력 -->
+    <a href="https://t.me/center117" class="dd">
+      <div id="tm_tele">
+      </div>
+    </a>
+    <a href="http://t.me/center117">
+      <div id="tm_kakao">
+      </div>
+    </a>
+    <!-- 맨 아래 버튼들 -->
+    <!-- href에 텔레그렘 주소 입력 -->
+    <a href="http://t.me/center117">
+      <div id="bm_tele">
+      </div>
+    </a>
+    <!-- href에 카카오톡 주소 입력 -->
+    <a href="http://qr.kakao.com/talk/SEAxoauk0cv86Em6PywZx_NvGdE-">
+      <div id="bm_kakao">
+      </div>
+    </a>
+
+  </div>
 </body>
 </html>
